@@ -2,9 +2,8 @@
 
 ## setup
 
-- create github account
 - install git
-- on terminal configure github to identify you as author
+- on terminal configure git to identify you as author
 
 ```
 // check
@@ -24,10 +23,12 @@ git config --global user.email "your@email.com"
 - `git add .` - add all changes to staging
 - `git commit -m "commit message"`
 - `git log` - get a list of commits
-- `git checkout <hash>`
-- `git checkout master`
+- `git checkout <hash>` - review a specific commit for a while
+- `git checkout master` - return to current progress
 - `git branch` - list branches
 - `git branch <name>` - create a branch
+- `git merge <branch-name>` - merges a branch to main code
+- `git branch -d <branch-name>` - delete a branch
 
 ## basic workflow
 
