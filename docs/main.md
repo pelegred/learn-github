@@ -21,8 +21,10 @@ git config --global user.email "your@email.com"
 - `git init` - creates a .git folder on current directory
 - `git status` - to check if any files untracked, or modified
 - `git add filename`
+- `git add .` - add all changes to staging
 - `git commit -m "commit message"`
 - `git log` - get a list of commits
+- `git checkout (hash)`
 
 ## basic workflow
 
