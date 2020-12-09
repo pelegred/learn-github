@@ -24,7 +24,10 @@ git config --global user.email "your@email.com"
 - `git add .` - add all changes to staging
 - `git commit -m "commit message"`
 - `git log` - get a list of commits
-- `git checkout (hash)`
+- `git checkout <hash>`
+- `git checkout master`
+- `git branch` - list branches
+- `git branch <name>` - create a branch
 
 ## basic workflow
 
